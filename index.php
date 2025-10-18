@@ -62,7 +62,7 @@ $result = $stmt->get_result();
     </section>
 
     <section class="card">
-      <h2>Listado de Usuarios</h2>
+      <h2>usuarios</h2>
       <table>
         <thead>
           <tr>
