@@ -1,0 +1,126 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #eef3ff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  text-align: center;
+  color: #222;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.search input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.search button {
+  background: #657ef8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #657ef8;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+.form .row {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.actions button {
+  background: #657ef8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+th {
+  background: #657ef8;
+  color: white;
+}
+
+a.edit {
+  color: #1b73e8;
+  text-decoration: none;
+}
+
+a.delete {
+  color: #e81b1b;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  color: #666;
+  margin-top: 20px;
+  font-size: 14px;
+}
