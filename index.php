@@ -93,7 +93,7 @@ $result = $stmt->get_result();
     </section>
 
     <footer>
-      <p>CRUD sencillo con PHP + MySQLi • Hecho para XAMPP</p>
+      <p>Desarrollado de Sebastián Morales UTC</p>
     </footer>
   </div>
 </body>
