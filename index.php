@@ -56,7 +56,7 @@ $result = $stmt->get_result();
           </select>
         </div>
         <div class="row actions">
-          <button type="submit">Guardar</button>
+          <button type="submit">Guardar Formulario</button>
         </div>
       </form>
     </section>
