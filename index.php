@@ -83,8 +83,8 @@ $result = $stmt->get_result();
             <td><?php echo htmlspecialchars($row['rol']); ?></td>
             <td><?php echo $row['fecha_registro']; ?></td>
             <td>
-              <a class="edit" href="edit.php?id=<?php echo $row['id']; ?>">Editar</a>
-              <a class="delete" href="delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('¿Eliminar este usuario?');">Eliminar</a>
+              <a class="search button" href="edit.php?id=<?php echo $row['id']; ?>">Editar</a>
+              <a class="search button" href="delete.php?id=<?php echo $row['id']; ?>" onclick="return confirm('¿Eliminar este usuario?');">Eliminar</a>
             </td>
           </tr>
         <?php endwhile; ?>
